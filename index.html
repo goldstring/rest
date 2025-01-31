@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Index - Yummy Bootstrap Template</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <style>
+    .swiper-slide img {
+  width: 100%;  /* Ensures images take the full width of the container */
+  height: 250px;  /* Set a fixed height */
+  object-fit: cover;  /* Ensures images are properly scaled and cropped */
+  border-radius: 10px; /* Optional: Adds rounded corners */
+}
+  </style>
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="container position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <h1 class="text-danger">MalvaniTales<span>.</span></h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a class="active" href="index.html">Home</a></li>
+          <li><a href="about_us.html">About</a></li>
+          <li><a href="contact_us.html">Contact</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section light-background">
+
+      <div class="container">
+        <div class="row justify-content-between gy-5">
+          <div class="col-lg-5 order-2 order-lg-1 d-flex flex-column justify-content-center align-items-center align-items-lg-start text-center text-lg-start">
+            <h3 data-aos="fade-up" class="text-danger" style="font-weight: 600;">येवा मालवणी टेल्स आपलोच हा.</h3>
+            <p data-aos="fade-up" data-aos-delay="100">मालवणी किस्से उत्तम दर्जाचे अस्सल मालवणी पाककृती, चायनीज आणि सी फूड पॉकेट फ्रेंडली किमतीत देण्यासाठी ओळखले जातात. आमचा आयुष्यभर संबंधांवर विश्वास आहे आणि आम्ही प्रिझर्वेटिव्ह किंवा रंगाशिवाय अस्सल अन्न देतो. आमची खास थाली म्हणजे मालवणी टच असलेली घरगुती थाळी.</p>
+            <div class="d-flex" data-aos="fade-up" data-aos-delay="200">
+              <a style="outline: none;border: unset;" href="https://youtu.be/dwVJQgoymD4?si=wRPQOyDBrhNMO-QR" class="glightbox btn-book-a-table d-flex align-items-center youtube_video"><i class="bi bi-play-circle btn-watch-video" style="color:#fff;padding-right: 0.8rem;"></i><span>Watch Video</span></a>
+            </div>
+          </div>
+          <div class="col-lg-5 order-1 order-lg-2 text-center text-lg-start">
+            <img src="assets/img/hero_image_7896.png" class="img-fluid" alt="" data-aos="zoom-out" data-aos-delay="300">
+          </div>
+        </div>
+      </div>
+
+    </section><!-- /Hero Section -->
+
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <p><span>Malvani Tales</span> <span class="description-title">Speciality</span></p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "centeredSlides": true,
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              },
+              "breakpoints": {
+                "320": {
+                  "slidesPerView": 1,
+                  "spaceBetween": 0
+                },
+                "768": {
+                  "slidesPerView": 3,
+                  "spaceBetween": 20
+                },
+                "1200": {
+                  "slidesPerView": 5,
+                  "spaceBetween": 20
+                }
+              }
+            }
+          </script>
+          <div class="swiper-wrapper align-items-center">
+            
+            <div class="swiper-slide">
+              <a class="glightbox" data-gallery="images-gallery" href="assets/img/recipes/FB_IMG_1735561594744.jpg">
+                <img src="assets/img/recipes/FB_IMG_1735561594744.jpg" class="img-fluid" alt="">
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a class="glightbox" data-gallery="images-gallery" href="assets/img/recipes/FB_IMG_1735561599289.jpg">
+                <img src="assets/img/recipes/FB_IMG_1735561599289.jpg" class="img-fluid" alt="">
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a class="glightbox" data-gallery="images-gallery" href="assets/img/recipes/FB_IMG_1735561602651.jpg">
+                <img src="assets/img/recipes/FB_IMG_1735561602651.jpg" class="img-fluid" alt="">
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a class="glightbox" data-gallery="images-gallery" href="assets/img/recipes/FB_IMG_1735561634453.jpg">
+                <img src="assets/img/recipes/FB_IMG_1735561634453.jpg" class="img-fluid" alt="">
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a class="glightbox" data-gallery="images-gallery" href="assets/img/recipes/FB_IMG_1735561636927.jpg">
+                <img src="assets/img/recipes/FB_IMG_1735561636927.jpg" class="img-fluid" alt="">
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a class="glightbox" data-gallery="images-gallery" href="assets/img/recipes/FB_IMG_1735561642070.jpg">
+                <img src="assets/img/recipes/FB_IMG_1735561642070.jpg" class="img-fluid" alt="">
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a class="glightbox" data-gallery="images-gallery" href="assets/img/recipes/FB_IMG_1735561645406.jpg">
+                <img src="assets/img/recipes/FB_IMG_1735561645406.jpg" class="img-fluid" alt="">
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a class="glightbox" data-gallery="images-gallery" href="assets/img/recipes/FB_IMG_1735561648325.jpg">
+                <img src="assets/img/recipes/FB_IMG_1735561648325.jpg" class="img-fluid" alt="">
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a class="glightbox" data-gallery="images-gallery" href="assets/img/recipes/FB_IMG_1735561650514.jpg">
+                <img src="assets/img/recipes/FB_IMG_1735561650514.jpg" class="img-fluid" alt="">
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a class="glightbox" data-gallery="images-gallery" href="assets/img/recipes/FB_IMG_1735561653395.jpg">
+                <img src="assets/img/recipes/FB_IMG_1735561653395.jpg" class="img-fluid" alt="">
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a class="glightbox" data-gallery="images-gallery" href="assets/img/recipes/FB_IMG_1735561655792.jpg">
+                <img src="assets/img/recipes/FB_IMG_1735561655792.jpg" class="img-fluid" alt="">
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a class="glightbox" data-gallery="images-gallery" href="assets/img/recipes/FB_IMG_1735561663858.jpg">
+                <img src="assets/img/recipes/FB_IMG_1735561663858.jpg" class="img-fluid" alt="">
+              </a>
+            </div>
+            <!-- Repeat the same for the remaining images -->
+            
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+
+    </section><!-- /Gallery Section -->
+
+    
+    <section id="why-us" class="why-us section-bg">
+      <div class="container aos-init aos-animate" data-aos="fade-up">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-12 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+            <div class="why-box">
+              <h3>मालवणी टेल्स का निवडावे?</h3>
+              <div>
+               
+
+                <p>"मालवणी टेल्स" निवडण्याचे कारण स्पष्ट आहे – तेथे मिळणारा मच्छी आणि चिकन फूड, तसेच थाली आणि प्लेट्स त्यांच्या खास मालवणी जेवणाच्या चवीने परिपूर्ण असतात. जर आपल्याला पारंपरिक मालवणी चवीची अनुभव घेण्याची इच्छा असेल, तर "मालवणी टेल्स" आपल्यासाठी योग्य ठिकाण आहे. ताज्या मासे आणि चिकनच्या विविध प्रकारांची चविष्ट आणि रुचकर व्यंजनं, आपल्या आवडीला अनोख्या प्रकारे समर्पित करतात. त्यात जाड लोणी, मसालेदार सॉस, आणि ताज्या मसाल्यांचे मिश्रण आपल्या जेवणाला अधिक चवदार बनवते. सुद्धा, जेवणाचा अनुभव एकदम दिलासा देणारा आणि ताजेतवाना असतो, जे आपल्याला पुन्हा पुन्हा येथे येण्याची इच्छा निर्माण करते. "मालवणी टेल्स" एकदम आदर्श ठिकाण आहे जेथे आपल्याला प्रामुख्याने मालवणी जेवणाची उत्तम चव आणि अनुभव मिळवता येईल.</p>
+
+              </div>
+              
+            </div>
+          </div><!-- End Why Box -->
+
+          <div class="col-lg-12 d-flex align-items-center">
+            <div class="row gy-4">
+
+              <div class="col-xl-3 aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+                <div class="icon-box d-flex flex-column justify-content-center align-items-center">
+                  <i class="bi bi-inboxes"></i>
+                  <h4>Freshness and Quality</h4>
+                </div>
+              </div><!-- End Icon Box -->
+
+              <div class="col-xl-3 aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
+                <div class="icon-box d-flex flex-column justify-content-center align-items-center">
+                  <i class="bi bi-inboxes"></i>
+                  <h4>Traditional Malvani Taste</h4>
+                </div>
+              </div><!-- End Icon Box -->
+
+              <div class="col-xl-3 aos-init aos-animate" data-aos="fade-up" data-aos-delay="400">
+                <div class="icon-box d-flex flex-column justify-content-center align-items-center">
+                  <i class="bi bi-inboxes"></i>
+                  <h4>Delicious Thalis and Platters</h4>
+                </div>
+              </div><!-- End Icon Box -->
+
+              <div class="col-xl-3 aos-init aos-animate" data-aos="fade-up" data-aos-delay="400">
+                <div class="icon-box d-flex flex-column justify-content-center align-items-center">
+                  <i class="bi bi-inboxes"></i>
+                  <h4>Coastal Flavor</h4>
+                </div>
+              </div><!-- End Icon Box -->
+
+
+              <div class="col-xl-3 aos-init" data-aos="fade-up" data-aos-delay="400">
+                <div class="icon-box d-flex flex-column justify-content-center align-items-center">
+                  <i class="bi bi-inboxes"></i>
+                  <h4>Affordable Prices</h4>
+                </div>
+              </div><!-- End Icon Box -->
+
+
+              <div class="col-xl-3 aos-init" data-aos="fade-up" data-aos-delay="400">
+                <div class="icon-box d-flex flex-column justify-content-center align-items-center">
+                  <i class="bi bi-inboxes"></i>
+                  <h4>Love-Crafted Meals</h4>
+                </div>
+              </div><!-- End Icon Box -->
+
+              <div class="col-xl-3 aos-init" data-aos="fade-up" data-aos-delay="400">
+                <div class="icon-box d-flex flex-column justify-content-center align-items-center">
+                  <i class="bi bi-inboxes"></i>
+                  <h4>Excellent Customer Service</h4>
+                </div>
+              </div><!-- End Icon Box -->
+
+              <div class="col-xl-3 aos-init" data-aos="fade-up" data-aos-delay="400">
+                <div class="icon-box d-flex flex-column justify-content-center align-items-center">
+                  <i class="bi bi-inboxes"></i>
+                  <h4>Natural Sourced Ingredients</h4>
+                </div>
+              </div><!-- End Icon Box -->
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <section id="stats-counter" class="stats-counter">
+      <div class="container aos-init aos-animate" data-aos="zoom-out">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="2500" data-purecounter-duration="0" class="purecounter">2500</span>
+              <p>Satisfied Customers</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="400" data-purecounter-duration="0" class="purecounter">400</span>
+              <p>Delicious Dishes Served</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="10000" data-purecounter-duration="0" class="purecounter">10000</span>
+              <p>Meals Prepared</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="10" data-purecounter-duration="0" class="purecounter">10</span>
+              <p>Workers</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+        </div>
+
+      </div>
+    </section>
+
+    
+
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>TESTIMONIALS</h2>
+        <p>What Are They <span class="description-title">Saying About Us</span></p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              }
+            }
+          </script>
+          <div id="testimonials_container" class="swiper-wrapper">
+
+            
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+
+    </section><!-- /Testimonials Section -->
+
+  <!-- Delivery Partner Section -->
+    <section class="testimonials section light-background">
+      <div class="container-fluid">
+
+        <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <p>Our <span class="description-title">Delivery Partner</span></p>
+      </div><!-- End Section Title -->
+        
+        <div class="row d-flex justify-content-center">
+          <div class="col-md-3 col-6">
+            <img class="img-fluid" src="assets/img/swiggy.png" />
+          </div>
+          <div class="col-md-3 col-6">
+            <img class="img-fluid" src="assets/img/zomato.png" />
+          </div>
+        </div>
+      </div>
+    </section>
+  <!-- /Delivery Partner Section -->
+
+   
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <p><span>Malvani Tales</span> <span class="description-title">Special Moments</span></p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="swiper init-swiper">
+           <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "centeredSlides": true,
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              },
+              "breakpoints": {
+                "320": {
+                  "slidesPerView": 1,
+                  "spaceBetween": 0
+                },
+                "768": {
+                  "slidesPerView": 3,
+                  "spaceBetween": 20
+                },
+                "1200": {
+                  "slidesPerView": 4,
+                  "spaceBetween": 20
+                }
+              }
+            }
+          </script>
+          <div class="swiper-wrapper align-items-center" id="swiper-container">
+            
+            
+            <!-- Repeat the same for the remaining images -->
+            
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+
+    </section><!-- /Gallery Section -->
+
+    <!-- Contact Section -->
+
+    <section id="contact" class="contact">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header text-center">
+          <h1>Contact</h1>
+          <p>Need Help? <span>Contact Us</span></p>
+        </div>
+
+        <div class="mb-3">
+         
+
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2698.7922620421164!2d72.80270607521535!3d19.47039278181706!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7a94140a3fdb3%3A0x820330dc4b0cc781!2sMalvani%20tales!5e1!3m2!1sen!2sin!4v1735621328965!5m2!1sen!2sin" style="border:0; width: 100%; height: 350px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        </div><!-- End Google Maps -->
+
+        <div class="row gy-4">
+
+          <div class="col-md-6">
+            <div class="info-item  d-flex align-items-center">
+              <i class="icon bi bi-map flex-shrink-0"></i>
+              <div>
+                <h3>Our Address</h3>
+                <p>M-37, M-4 building, M avenue, dongarpada road, Vasai, Rustomjee Global City, Virar West, Virar, Maharashtra 401303</p>
+              </div>
+            </div>
+          </div><!-- End Info Item -->
+
+          <div class="col-md-6">
+            <div class="info-item d-flex align-items-center">
+              <i class="icon bi bi-envelope flex-shrink-0"></i>
+              <div>
+                <h3>Email Us</h3>
+                <p>malvanitales@gmail.com</p>
+              </div>
+            </div>
+          </div><!-- End Info Item -->
+
+          <div class="col-md-6">
+            <div class="info-item  d-flex align-items-center">
+              <i class="icon bi bi-telephone flex-shrink-0"></i>
+              <div>
+                <h3>Call Us</h3>
+                <p>+07738893777</p>
+              </div>
+            </div>
+          </div><!-- End Info Item -->
+
+          <div class="col-md-6">
+            <div class="info-item  d-flex align-items-center">
+              <i class="icon bi bi-share flex-shrink-0"></i>
+              <div>
+                <h3>Opening Hours</h3>
+                <div><strong>Tue-Sun:</strong> 12–11.30 PM;
+                  <strong>Monday:</strong> Closed
+                </div>
+              </div>
+            </div>
+          </div><!-- End Info Item -->
+
+        </div>
+
+
+      </div>
+    </section>
+    
+    <!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer shadow-lg">
+
+    <div class="container">
+      <div class="row gy-3">
+        <div class="col-lg-3 col-md-6 d-flex">
+          <i class="bi bi-geo-alt icon"></i>
+          <div>
+            <h4>Address</h4>
+            <p>
+              M-37, M-4 building, M avenue, dongarpada road, Vasai, Rustomjee Global City, Virar West, Virar, Maharashtra 401303
+            </p>
+          </div>
+
+        </div>
+
+        <div class="col-lg-3 col-md-6 footer-links d-flex">
+          <i class="bi bi-telephone icon"></i>
+          <div>
+            <h4>Reservations</h4>
+            <p>
+              <strong>Phone:</strong> +07738893777<br>
+              <strong>Email:</strong> malvanitales@gmail.com<br>
+            </p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 footer-links d-flex">
+          <i class="bi bi-clock icon"></i>
+          <div>
+            <h4>Opening Hours</h4>
+            <p>
+              <p>Tue-Sun: 12–11.30 PM</p>
+              <p>Monday: Closed</p>
+            </p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 footer-links">
+          <h4>Follow Us</h4>
+          <div class="social-links d-flex">
+            <a href="https://g.co/kgs/7Ub8tHq" class="twitter" target="_blank"><i class="fa-brands fa-google"></i></a>
+            <a href="https://www.facebook.com/brunchfoodstudios/" target="_blank" class="facebook"><i class="bi bi-facebook"></i></a>
+            <a href="https://www.instagram.com/malvanitalesrestro/" target="_blank" class="instagram"><i class="bi bi-instagram"></i></a>
+            <a href="https://wa.me/7738893777" target="_blank" class="linkedin"><i class="fa-brands fa-whatsapp"></i></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright text-center">
+        Copyright  &copy; <span class="year"></span> <strong><span>MalvaniTales</span></strong>. All Rights Reserved
+      </div>
+      
+    </div>
+
+  </footer><!-- End Footer -->
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/reviews.js"></script>
+
+</body>
+
+</html>
